@@ -12,7 +12,7 @@ function sumFibs(num) {
     }
 
     // avancer dans la suite de Fibonacci
-    temp = a + b;
+    temp = a + b; // var temp obligatoire afin de ne pas perdre l'ancienne valeur de a.
     a = b;
     b = temp;
   }
